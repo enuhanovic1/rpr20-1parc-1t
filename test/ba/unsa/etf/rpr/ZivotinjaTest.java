@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ZivotinjaTest {
-    /*@Test
+    @Test
     public void testPas() {
         try {
             DomaciPas fifi = new DomaciPas("fifi-987", "Fifi");
@@ -117,5 +117,5 @@ class ZivotinjaTest {
             e.printStackTrace();
             fail();
         }
-    }*/
+    }
 }
