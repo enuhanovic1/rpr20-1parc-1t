@@ -8,7 +8,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ZooVrtTest {
-    /*@Test
+    @Test
     void constructorTest() {
         ZooVrt pionirska = new ZooVrt();
         assertEquals(0, pionirska.broj());
@@ -221,5 +221,5 @@ class ZooVrtTest {
         rezultat = pionirska.koToTamoGovori("pikapika");
         assertEquals(1, rezultat.size());
         assertTrue(rezultat.contains(pikachu));
-    }*/
+    }
 }

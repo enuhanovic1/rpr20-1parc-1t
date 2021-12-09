@@ -2,7 +2,7 @@ package ba.unsa.etf.rpr;
 
 abstract public class Zivotinja {
     private String id;
-    private String ime;
+    String ime;
 
     public Zivotinja(String id, String ime) throws NeispravanFormatIdaException {
         if (ime.trim().equals("")) throw new IllegalArgumentException("Ime ne može biti prazno");
